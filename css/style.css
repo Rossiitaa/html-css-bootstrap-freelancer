@@ -10,13 +10,13 @@ img {
     width: 100%;
     border-radius: 10px;
 }
-/* header */
+/* HEADER */
 .ms_bg_head {
     background-color: #2c3e50;
 }
 
 
-/* main */
+/* MAIN */
 
 /* start bootstrap */
 .ms_bg_section1 {
@@ -48,12 +48,13 @@ img {
 .ms_star {
 }
 .ms_star i {
-    font-size: 35px;
+    font-size: 30px;
     vertical-align: middle;
+    margin: 0 20px 0 20px;
 }
 .ms_star::before {
     content: "";
-    width: 70px;
+    width: 120px;
     height: 4px;
     border-radius: 15px;
     background-color: #000;
@@ -62,7 +63,7 @@ img {
 }
 .ms_star::after {
     content: "";
-    width: 70px;
+    width: 120px;
     height: 4px;
     border-radius: 15px;
     background-color: #000;
@@ -77,6 +78,29 @@ h6 {
 /* portfolio */
 
 /* about */
-.button {
-    
+
+
+/* FOOTER */    
+footer {
+    color: #fff;
+}
+
+.ms_1SecFoot {
+    background-color: #3a546d;
+}
+
+.ms_2SecFoot {
+    background-color: #2c3e50;
+}
+
+.ms_font_freelancer {
+}
+
+span {
+    color: #1abc9c;
+}
+
+.ms_border_social {
+    border: 1px solid #fff;
+    border-radius: 50%;
 }
